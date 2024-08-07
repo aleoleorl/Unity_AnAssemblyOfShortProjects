@@ -6,4 +6,4 @@ I didn't include Library folders from the projects and I added Exe_Application f
 Which Projects I have:
 1. moving_test - just an application for checking the main Unity possibilities in 2D mode.
 2. Platformer. I tried to make the logic maximality splited/divided here. Project wasn't completely done in case of Editor, but it is Ok to play and to add maps manually (in resourses).
-3.Three in row. Here provided the main mechanic of one of the popular casual game genre.
+3. Three in row. Here provided the main mechanic of one of the popular casual game genre.
