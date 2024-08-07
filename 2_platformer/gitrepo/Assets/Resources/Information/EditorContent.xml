@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<game>
+	<subject path="none">
+	</subject>
+	<subject path="pers1">
+	</subject>
+	<subject path="floor1">
+	</subject>
+	<subject path="floor2">
+	</subject>
+	<subject path="bush1">
+	</subject>
+	<subject path="door1">
+	</subject>
+	<subject path="congratz1">
+	</subject>
+
+	<componentCategory max="1" name = "Controller">
+		<component name="Controller"></component>
+	</componentCategory>
+	<componentCategory max="1" name = "Phys">
+		<component name="Phys">
+			<param name="nx" tip="f"/>
+			<param name="ny" tip="f"/>
+		</component>
+	</componentCategory>
+	<componentCategory max="1" name = "Collider">
+		<component name="Collider">
+			<multiParam name="v">
+				<attr name="vx" tip="f"/>
+				<attr name="vy" tip="f"/>
+				<attr name="vz" tip="f"/>
+				<attr name="vw" tip="f"/>
+			</multiParam>
+		</component>
+	</componentCategory>
+	<componentCategory max="1" name = "Move">
+		<component name="Move">
+			<param name="vx" tip="f"/>
+			<param name="vy" tip="f"/>
+		</component>
+	</componentCategory>
+	<componentCategory max="10" name = "Event">
+		<component name="Event">
+			<param name="status" tip="b"/>
+			<param name="repeatedEvent" tip="b"/>
+
+			<innerParam name="id" tip="EventId"/>
+
+			<action>
+				<part>pause</part>
+				<part>{num}</part>
+			</action>
+			<action>
+				<part>cameraInSquare</part>
+				<part>{num}</part>
+				<part>{num}</part>
+				<part>{num}</part>
+				<part>{num}</part>
+			</action>
+			<action>
+				<part>cameraYLessThan</part>
+				<part>{num}</part>
+			</action>
+
+			<effect>
+				<part>levelStartAgain</part>
+			</effect>
+			<effect>
+				<part>makeVisual</part>
+				<part>{bool}</part>
+			</effect>
+			<effect>
+				<part>makeMove</part>
+				<part>{bool}</part>
+			</effect>
+			<effect>
+				<part>eventOnOff</part>
+				<part>{num}</part>
+				<part>{bool}</part>
+			</effect>
+			<effect>
+				<part>win</part>
+			</effect>
+			<effect>
+				<part>returnBack</part>
+			</effect>
+		</component>
+	</componentCategory>
+</game>

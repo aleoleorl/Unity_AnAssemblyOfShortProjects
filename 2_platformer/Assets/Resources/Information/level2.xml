@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<game id="l1" startX="0" startY="0">
+	<baseObject moveAccess="false">
+		<parameter name ="show" value="true"/>
+		<parameter name ="x" value="0"/>
+		<parameter name ="y" value="0"/>
+		<parameter name ="width" value="0.835"/>
+		<parameter name ="height" value="1"/>
+		<parameter name ="move" value="true"/>
+		<component name="View">
+			<name>pers1</name>
+		</component>
+		<component name="Controller"/>
+		<component name="Phys">
+			<nx>0.125</nx>
+			<ny>2.5</ny>
+		</component>
+		<component name="Collider">
+			<v vx="0" vy="0" vz="0.835" vw="1"/>
+		</component>
+		<component name="Move">
+			<vx>6.5</vx>
+			<vy>10</vy>
+		</component>
+		<component name="Event">
+			<id>0</id>
+			<status>true</status>
+			<repeatedEvent>false</repeatedEvent>
+			<action>cameraInSquare:4:5:1:1.54</action>
+			<effect>makeVisual:false</effect>
+			<effect>makeMove:false</effect>
+			<effect>eventOnOff:1:true</effect>
+		</component>
+		<component name="Event">
+			<id>1</id>
+			<status>false</status>
+			<repeatedEvent>false</repeatedEvent>
+			<action>pause:5</action>
+			<effect>win</effect>
+			<effect>returnBack</effect>
+		</component>
+		<component name="Event">
+			<id>2</id>
+			<status>true</status>
+			<repeatedEvent>true</repeatedEvent>
+			<action>cameraYLessThan:-5</action>
+			<effect>levelStartAgain</effect>
+		</component>
+	</baseObject>
+	<baseObject moveAccess="false">
+		<parameter name ="show" value="true"/>
+		<parameter name ="x" value="0"/>
+		<parameter name ="y" value="-5"/>
+		<parameter name ="width" value="4.8"/>
+		<parameter name ="height" value="0.52"/>
+		<component name="View">
+			<name>floor1</name>
+		</component>
+		<component name="Collider">
+			<v vx="0" vy="-5" vz="4.8" vw="0.52"/>
+		</component>
+	</baseObject>
+	<baseObject moveAccess="false">
+		<parameter name ="show" value="true"/>
+		<parameter name ="x" value="-4"/>
+		<parameter name ="y" value="-3"/>
+		<parameter name ="width" value="4.8"/>
+		<parameter name ="height" value="0.52"/>
+		<component name="View">
+			<name>floor1</name>
+		</component>
+		<component name="Collider">
+			<v vx="-4" vy="-3" vz="4.8" vw="0.52"/>
+		</component>
+	</baseObject>
+	<baseObject moveAccess="false">
+		<parameter name ="show" value="true"/>
+		<parameter name ="x" value="4"/>
+		<parameter name ="y" value="-1"/>
+		<parameter name ="width" value="4.8"/>
+		<parameter name ="height" value="0.52"/>
+		<component name="View">
+			<name>floor1</name>
+		</component>
+		<component name="Collider">
+			<v vx="4" vy="-1" vz="4.8" vw="0.52"/>
+		</component>
+	</baseObject>
+	<baseObject moveAccess="false">
+		<parameter name ="show" value="true"/>
+		<parameter name ="x" value="-4"/>
+		<parameter name ="y" value="1.5"/>
+		<parameter name ="width" value="4.8"/>
+		<parameter name ="height" value="0.52"/>
+		<component name="View">
+			<name>floor1</name>
+		</component>
+		<component name="Collider">
+			<v vx="-4" vy="1.5" vz="4.8" vw="0.52"/>
+		</component>
+	</baseObject>
+	<baseObject moveAccess="false">
+		<parameter name ="show" value="true"/>
+		<parameter name ="x" value="-3"/>
+		<parameter name ="y" value="3.5"/>
+		<parameter name ="width" value="4.8"/>
+		<parameter name ="height" value="0.52"/>
+		<component name="View">
+			<name>floor1</name>
+		</component>
+		<component name="Collider">
+			<v vx="-3" vy="3.5" vz="4.8" vw="0.52"/>
+		</component>
+	</baseObject>
+	<baseObject moveAccess="true">
+		<parameter name ="show" value="true"/>
+		<parameter name ="x" value="4"/>
+		<parameter name ="y" value="5"/>
+		<parameter name ="width" value="2"/>
+		<parameter name ="height" value="1.34"/>
+		<component name="View">
+			<name>door1</name>
+		</component>
+	</baseObject>
+	<baseObject moveAccess="true">
+		<parameter name ="show" value="false"/>
+		<parameter name ="x" value="0"/>
+		<parameter name ="y" value="5"/>
+		<parameter name ="width" value="4"/>
+		<parameter name ="height" value="2.58"/>
+		<component name="View">
+			<name>congratz1</name>
+		</component>
+		<component name="Event">
+			<id>3</id>
+			<status>true</status>
+			<repeatedEvent>false</repeatedEvent>
+			<action>cameraInSquare:4:5:1:1.54</action>
+			<effect>makeVisual:true</effect>
+		</component>
+	</baseObject>
+</game>

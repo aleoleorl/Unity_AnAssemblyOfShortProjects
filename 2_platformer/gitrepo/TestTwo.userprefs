@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EditMaker\Actions\Statuses.cs">
+    <Files>
+      <File FileName="Assets\Scripts\EditMaker\EditorMain.cs" Line="49" Column="102" />
+      <File FileName="Assets\Scripts\EditMaker\Info\Danke.cs" Line="27" Column="50" />
+      <File FileName="Assets\Scripts\EditMaker\Actions\Statuses.cs" Line="156" Column="39" />
+      <File FileName="Assets\Scripts\EditMaker\Info\ComponentCategory.cs" Line="51" Column="18" />
+      <File FileName="Assets\Scripts\EditMaker\Core\ChooseButton.cs" Line="40" Column="2" />
+      <File FileName="Assets\Scripts\EditMaker\Actions\Subjects.cs" Line="145" Column="2" />
+      <File FileName="Assets\Scripts\EditMaker\Core\EditorFactory.cs" Line="114" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

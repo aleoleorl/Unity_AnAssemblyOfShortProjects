@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<game>
+	<level name="Up and up!">level1</level>
+	<level name="Left and right!">level2</level>
+	<level name="Jump again!">level3</level>
+</game>
